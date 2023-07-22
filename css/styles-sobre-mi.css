@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+div{
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    font-size: 30px;
+}
+
+header{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 15px;
+    }
+
+a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 30px;
+}

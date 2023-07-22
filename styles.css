@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url("img/justicia.jpg");
+    background-attachment: fixed;
+    background-size:900px 600px;
+}
+
+header{
+
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(86, 91, 241);
+    text-align: center;
+    background-color:aquamarine; 
+    margin-top: 50px;
+
+} 
+
+#container{
+    margin: 20px;
+    color: white
+    
+    
+}
+nav> ul> li {
+      float: left;
+      margin: 10px;
+      padding:0px;
+      font-size: 25px;
+      text-align:center;
+      list-style: none;
+      text-decoration: none;
+      color: aqua;
+      text-align: justify;
+      
+}
+
+nav > ul > li> ul{
+    display: none;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+nav > ul > li> ul> li> a:hover{
+    background-color: var(--secondary-colo-dark);
+}
+
+nav> ul> li:hover> ul{
+    display: block;
+
+}
+
+nav > ul > li> ul> li> a{
+    display: block;
+    color: white;
+    background-color: chocolate;
+    padding: 2px;
+    border-top: 1px solid cornflowerblue;
+}
+
+
+nav{
+    text-decoration: none;
+    background-color: chocolate;
+    width: auto;
+    height: 60px;
+    line-height: 20px;
+    margin-top: 5px; 
+}
+
+ul{
+    list-style: none;
+}
+.btn-facebook{
+    float: right;
+    padding: 20px 30px;
+}
+
+.btn-wsp{
+    float: right;
+    margin-right: 20px;
+    padding: 0px;
+    
+}
+
+.btn-instagran{
+    float: right;
+    padding: 20px;
+}
+ 
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: 100%;
+    border: 5px rgb(151, 31, 31);
+    min-height: 300px;
+    min-width: 500px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(24, 215, 46);   
+}
+
+.btn{
+    background-color: blueviolet;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid regba (0,0,0,0.3);
+    
+}
+
+.btn:hover{
+    background-color: rgb(105, 141, 213);
+}
+
+
+a{
+  color: aqua; 
+  text-decoration: none;
+  transition: all 1s;
+}
+
+a:hover{
+    background-color: blue;
+    transition: all 1s;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    height: 100px;
+}
+
+
+
+form{
+    background: gray;
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    border-radius: 25px;
+    border: 3px solid cornflowerblue;
+    flex-direction: column;
+    font-size: 17px;
+
+}
+
+input, textarea{
+    border-radius: 10px;    
+}
+
+:focus{
+    outline: 3px solid cornflowerblue;
+}
